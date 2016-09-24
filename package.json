@@ -1,0 +1,10 @@
+{
+  "name": "gladys-zwave",
+  "version": "0.0.1",
+  "description": "This module enable zwave control in Gladys",
+  "dependencies": {
+    "openzwave-shared": "^1.2.0"
+  },
+  "author": "Pierre-Gilles Leymarie",
+  "license": "Creative Commons 3.0 France"
+}
