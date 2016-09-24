@@ -7,5 +7,8 @@ module.exports = function (sails) {
     gladys.on('ready', function(){
         init();
     });
-    
+
+    return {
+
+    };
 };
