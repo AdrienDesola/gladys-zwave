@@ -1,4 +1,4 @@
-# Gladys Zwave
+# Gladys Zwave (Alpha)
 
 Gladys hooks to control Zwave devices.
 
@@ -9,6 +9,8 @@ Open-Zwave is already installed in the prebuilt Gladys Raspbian image you can do
 If you want to use it on your Raspbian image 3.1.5, all you have to do is to :
 - Install Open Zwave on it (Instructions are at the end of this README)
 - Update Gladys to version >= 3.1.11
+
+Remember : This module is still in Alpha :)
 
 ## Documentation
 
