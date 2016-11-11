@@ -6,6 +6,7 @@ module.exports = function (sails) {
     var disconnect = require('./lib/zwave.disconnect.js');
     var exec = require('./lib/zwave.exec.js');
     var setup = require('./lib/zwave.setup.js');
+    var zwaveInstance = require('./lib/zwave.shared.js').zwave;
 
     gladys.on('ready', function(){
         connect();
@@ -15,6 +16,7 @@ module.exports = function (sails) {
         connect,
         disconnect,
         exec,
-        setup
+        setup,
+        zwaveInstance
     };
 };
